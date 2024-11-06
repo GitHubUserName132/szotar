@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import words from './words';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {
+      words.map(data => {
+        return <div id='datas'>
+          <div>
+            <div id='termEn'>{data.term_en}</div>
+            <div id='termHu'>{data.term_hu}</div>
+          </div>
+          <div>
+            <div id='descEn'>{data.description_en}</div>
+            <div id='descEn'>{data.description_hu}</div>
+          </div>
+        </div>
+      })
+    }
+    </>
   );
 }
 
