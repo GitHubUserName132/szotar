@@ -1,26 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 #datas {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 100%;
-  background-color: darkmagenta;
-  padding: 20px;
-  margin: 20px;
-  border: 2px solid black;
-  width: 70%;
-  box-shadow: 5px 5px rgba(100,100,100,0.6);
-  border-radius: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 100%;
+	background-color: darkmagenta;
+	padding: 20px;
+	height: fit-content;
+	margin: auto;
+	margin-bottom: 10px;
+	border: 2px solid black;
+	width: 85%;
+	box-shadow: 5px 5px rgba(100, 100, 100, 0.6);
+	border-radius: 5px;
 }
 
 body {
-  background-color: pink;
-  color: white;
+	background-color: pink;
+	color: white;
 }
 
 #termEn {
-  font-size: 150%;
-  font-weight: bold;
-  display: flex;
+	font-size: 150%;
+	font-weight: bold;
+	display: flex;
 }
 
-#descEn {
-  display: flex;
+.huSec {
+	background-color: black;
+	color: white;
+}
+.enSec {
+	background-color: white;
+	color: black;
 }
