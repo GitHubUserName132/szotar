@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/szotar/static/css/main.2e40c178.css",
+    "main.js": "/szotar/static/js/main.9742676e.js",
+    "index.html": "/szotar/index.html",
+    "main.2e40c178.css.map": "/szotar/static/css/main.2e40c178.css.map",
+    "main.9742676e.js.map": "/szotar/static/js/main.9742676e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e40c178.css",
+    "static/js/main.9742676e.js"
+  ]
+}
